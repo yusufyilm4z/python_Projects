@@ -1,4 +1,5 @@
-r=input("Please enter your circles radius: ")
-pi=3.14
-areaOfCircle=pi*(int(r)**2)
+import math
+
+r=int(input("Please enter your circles radius: "))
+areaOfCircle=math.pi*math.pow(r,2)
 print(areaOfCircle)
